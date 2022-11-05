@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.corecter{
+    width: 600px;
+}
+/* #region nav */
+nav{
+    padding-top:90px ;
+    height: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    width: 300px;
+}
+nav h2,nav a{
+    text-align: center;
+    font-weight: 400;
+    color: #757575;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+}
+nav a:hover{
+    background-color:#b8b8b8 ;
+    color: black;
+}
+nav ul{
+    margin-top: 80px;
+}
+/* #endregion */
+/* #region main */
+main{
+    margin-left: 300px;
+    width: calc(100%-300px);
+}
+/* #region bar1 */
+.main_bar1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main_bar1 img{
+    opacity: 0.8;
+    width: 33.3%;
+}
+.main_bar1 img:hover{
+    opacity: 1;
+}
+/* #endregion */
+/* #region bar2 */
+.main_bar2{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+}
+.main_bar2 ul{
+    display: flex;
+}
+.main_bar2 li{
+    padding: 9px 15px;
+}
+.main_bar2 li:hover{
+    background-color: black;
+    color: white;
+}
+/* #endregion */
+/* #region bar3 */
+.main_bar3{
+    padding: 40px 0px;
+    background-color: #616161;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_bar3>div>h2{
+    color: #f1f1f1;
+    text-align: center;
+}
+.main_bar3 img{
+    width: 100%;
+    margin-top: 40px;
+}
+.main_bar3 .bar3_textbar *{
+    color: #f1f1f1;
+    font-weight: 100;
+    margin-top: 25px;
+}
+.bar3_prb{
+    width: 100%;
+    background-color: white;
+}
+.bar3_prbp{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: #b8b8b8;
+    color: black !important;
+    text-align: center;
+}
+.dw{
+    margin-top: 25px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: black !important;
+    background-color: rgb(236, 236, 236);
+}
+.dw:hover{
+    background-color: #b8b8b8;
+}
+/* #endregion */
+/* #region bar1>bar4 */
+.box3>h3{
+    color: #b8b8b8;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.box3_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box3_unbox{
+    width: 48%;
+}
+.box3_unbox1{
+    background-color: black;
+    color: #b8b8b8;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box3_unbox li{
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(160, 159, 159);
+    color: rgb(80, 80, 80);
+    background-color: #b8b8b8;
+}
+.box3_unbox a{
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    background-color: #b8b8b8;
+    color: rgb(80, 80, 80);
+}
+
+.box3_unbox li:last-child{
+    padding: 24px 0px;
+    background-color: #a8a8a8;
+}
+.box3_unbox:hover .box3_unbox1{
+    color: white;
+}
+.box3_unbox:hover li,.box3_unbox:hover li:last-child a{
+    background-color: white;
+}
+.box3_unbox:hover li:last-child{
+    background-color: #e2e2e2;
+}
+.box3_unbox a:hover{
+    background-color:rgb(158, 157, 157) !important;
+}
+/* #endregion */
+/* #region bar4 */
+.main_bar4{
+    justify-content: space-evenly;
+    display: flex;
+    padding:40px 0px ;
+    background-color:#f1f1f1;
+    width: 100%;
+}
+.main_bar4 h3{
+    text-align: center;
+}
+.main_bar4 p{
+    margin-top: 20px;
+}
+.main_bar4_ipbox{
+    margin-top: 30px;
+}
+.main_bar4_ipbox input{
+    width: 100%;
+    height: 40px;
+    margin-top: 3px;
+    border-radius: 3px;
+    border: 1px solid #b8b8b8;
+}
+.main_bar4 a{
+    font-size: 14px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    height: 30px;
+    margin-top: 15px;
+}    
+.main_bar4 a:hover{
+    background-color: #b8b8b8;
+}
+/* #endregion */
+/* #endregion */
+/* #endregion */
+/* #region footer */
+footer{
+    margin-left: 300px;
+    width: calc(100%-300px);
+}
+.ft_bar1{
+    background-color: #9e9e9e;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.ft_box1{
+    width: 32%;
+}
+.ft_box2{
+    width: 32%;
+}
+.ft_box3{
+    width: 32%;
+}
+.ft_box1 p{
+    margin-top: 20px;
+}
+.ft_box2_unbox:first-child{
+    margin-top: 20px;
+}
+.ft_box2_unbox{
+    display: flex;
+    padding: 14px;
+    color: black;
+}
+.ft_box2_unbox:hover{
+    background-color: black;
+    color: white;
+}
+.ft_box2_unbox img{
+    width: 50px;
+    height: 50px;
+}
+.ft_box2_unbox>div{
+    line-height: 29px;
+    margin-left:20px ;
+}
+.ft_box2_unbox>div p:first-child{
+    font-size: 19px;
+}
+/*  */
+.ft_box3_unbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft_box3_unbox span{
+    font-size: 15px;
+    margin: 20px 0px 0px 3px;
+    display: inline-block;
+    padding: 2px 8px;
+    color: #fff;
+    background-color: #616161;
+}
+/* #endregion */
+/* #region responsive */
+@media only screen and (max-width:1000px){
+    nav ul{
+        display: none;
+    }
+    nav{
+        padding: 30px 40px;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+    }
+    nav h2{
+        color: black;
+        display: inline-block;
+    }
+    main{
+        padding-top: 88px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;
+    }}
+@media only screen and (max-width:730px) {
+    .ft_bar1{
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .ft_box1{
+        width: 100%;
+    }
+    .ft_box2{
+        width: 100%;
+    }
+    .ft_box3{
+        width: 100%;
+    }
+    .ft_box1,.ft_box2,.ft_box3{
+        margin-top: 40px;
+    }}
+@media only screen and (max-width:590px){
+    .main_bar1 img{
+        width: 100%;
+    }
+    /*  */
+    .main_bar3>.corecter{
+        width: auto;
+        padding: 14px;
+    }
+    /*  */
+    .box3_box{
+        flex-direction: column;
+    }
+    .box3_unbox{
+        margin-top: 20px;
+        width: 100%;
+    }
+    /*  */
+    .main_bar4{
+        padding: 14px;
+    }
+}
+
+/* #endregion */
